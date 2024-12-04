@@ -100,3 +100,34 @@ body{
     font-size: 14px;
     color: black;
 }
+
+/*responsividade*/
+
+@media (max-width:640px
+) {
+
+    .container .esquerda{
+        display: none;
+    }
+
+    .container .direita{
+        width: 100%;
+    }
+
+    .container .direita .card{
+        min-width: 0;
+        width: 80%;
+    }
+    /*
+   .container .esquerda{
+    display: none;
+   }
+
+   .container .direita{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+    */
+}

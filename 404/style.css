@@ -149,3 +149,55 @@ body{
 }
 
 
+/*responsividade*/
+
+@media (max-width: 640px
+) {
+
+    .container .topo{
+        display: none;
+    }
+
+    .container .meio .esquerda{
+        display: none;
+    }
+
+    .container .meio .direita{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+    .container .meio{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .container .fim{
+        width: 100%;
+    }
+
+    .container .fim .redes{
+        width: 100%;
+        padding left: 20px;
+        padding-right: 20px;
+    }
+    /*.container .meio .esquerda{
+        display: none;
+    }    
+    .container .meio .direita{
+        width: 100%;
+    }
+    .container .topo{
+        display: none;
+    }
+    .container .fim{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    */
+}

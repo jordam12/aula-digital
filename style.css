@@ -124,3 +124,25 @@ body{
     color: white;
     border: 1px solid white;
 }
+
+/*responsividade*/
+
+@media (
+    max-width:640px
+) {
+    .container .esquerda{
+        display: none;
+    }
+
+    .container .direita{
+        width: 100%;
+    }
+
+    .container .direita .card .meio input{
+        width: 90%;
+    }
+
+    .container .direita .card .topo h1{
+        font-size: 30px;
+    }
+}
